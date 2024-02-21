@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: Barlow Condensed;
+    color: white;
+    text-transform: capitalize;
+
+    --light-blue:rgb(208 214 251);
+    background-color: rgba(11, 13, 23, 1);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button, textarea, input {
+    outline: none;
+    border: none;
+} 
+
+::selection {
+    background-color: var(--light-blue);
+    color:#000000
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.ease-06 {
+    transition: .6s;
+}
